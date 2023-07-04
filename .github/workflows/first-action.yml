@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greetings
-        run: echo "Hello first github"
+        run: |
+          echo "Hello first github action"
+          ls -la
       - name: Print bye
         run: echo "Finished"
       
